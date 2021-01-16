@@ -1,1 +1,38 @@
 // info file
+// Быстрая замена двойных кавычек opt+enter
+
+// Package.json необходим, чтобы вести список зависимостей
+// Чтобы через систему контроля версий Git не перекидывать большое количество файлов
+
+// CLI нужен для боты с различными командами изи консоли
+
+//  --save-dev флаг, означающий установку завистимостей для разработки, в финальный bundle они не пойдут
+
+// npm run start
+// npm run build
+
+// Устаналиваем webpack плагины
+// npm install --save-dev html-webpack-plugin
+// npm install copy-webpack-plugin --save-dev
+// npm install --save-dev clean-webpack-plugin
+
+// Устанавливаем Loaders Webpack сущности,
+// пропускающие через себя различные расширения файлов как css
+// и превращают их в JavaScript, с чем умеет работать Webpack
+
+// npm install sass-loader sass --save-dev
+// npm i -D css-loader
+
+// Устанавливаем babel
+// npm install --save-dev babel-loader @babel/core
+// и config
+// npm install @babel/preset-env --save-dev
+
+// npm i -D cross-env
+// npm install webpack-dev-server --save-dev
+
+// npm install --save @babel/polyfill
+
+// Eslint добавляем в режиме разработки
+ npm i eslint eslint-loader babel-eslint -D
+ npm i -D eslint-config-google

@@ -34,5 +34,15 @@
 // npm install --save @babel/polyfill
 
 // Eslint добавляем в режиме разработки
- npm i eslint eslint-loader babel-eslint -D
- npm i -D eslint-config-google
+
+// npm i eslint eslint-loader babel-eslint -D
+// npm i -D eslint-config-google
+
+// Новая ветка git
+// git checkout -b "css-layout"
+
+// Верстка
+
+// Mormalize.css
+// npm install normalize.css
+// Позволяет сделать элементы приложения одинаковыми для всех браузеров

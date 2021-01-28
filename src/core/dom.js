@@ -44,6 +44,39 @@ class Dom {
     }
     return this
   }
+
+  closest(selector) {
+    return $(this.$el.closest(selector))
+  }
+
+  getCoords() {
+    return this.$el.getBoundingClientRect()
+  }
+
+  get data() {
+    return this.$el.dataset
+  }
+
+  findAll(selector) {
+    return this.$el.querySelectorAll(selector)
+  }
+
+  /*
+      {
+        height: '32px',
+        width: '42px',
+        background-color: red
+      }
+   */
+
+  css(styles={}) {
+    if (typeof(styles) === 'object') {
+      Object.keys(styles)
+          .map(key => {
+            this.$el.style[key] = styles[key]
+          })
+    }
+  }
 }
 
 export function $(selector) {

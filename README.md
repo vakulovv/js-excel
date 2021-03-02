@@ -1,5 +1,5 @@
 # Excel JavaScript
-Ссылка: [https://vakulovv.github.io/js-excel/](посмотреть) 
+Ссылка: [посмотреть](https://vakulovv.github.io/js-excel/) 
 
 Одностраничное приложение на чистом Javascript без использования фреймворков.
 

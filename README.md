@@ -1,5 +1,5 @@
 # Excel JavaScript
-Статус: В процессе разработки
+Статус: в процессе разработки
 
 Ссылка: [посмотреть](https://vakulovv.github.io/js-excel/) 
 
